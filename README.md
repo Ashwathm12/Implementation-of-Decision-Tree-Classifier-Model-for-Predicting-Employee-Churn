@@ -55,7 +55,31 @@ plt.show()
 ```
 
 ## Output:
-![Screenshot 2024-09-27 134908](https://github.com/user-attachments/assets/aaf71836-badc-4c90-9b3d-79213a39f5ad)
+```
+data.head()
+```
+![Screenshot 2024-09-27 140414](https://github.com/user-attachments/assets/a11c9d78-5334-4abb-9405-cbe09c13a186)
+
+```
+data.info()
+```
+![Screenshot 2024-09-27 140446](https://github.com/user-attachments/assets/2770e8d9-47f1-44d7-9caa-4b2e6a14600f)
+
+```
+data.isnull().sum()
+```
+![Screenshot 2024-09-27 140502](https://github.com/user-attachments/assets/17ae8264-8a3b-486b-914c-c4fcc06b2fb9)
+
+
+```
+data["left"].value_counts()
+```
+![Screenshot 2024-09-27 140520](https://github.com/user-attachments/assets/88e7648b-3cee-4696-893f-c42a1db6a866)
+
+
+```
+Predection
+```
 ![Screenshot 2024-09-27 134928](https://github.com/user-attachments/assets/20ebed51-fc30-42f2-a75e-a63e3e190931)
 
 
